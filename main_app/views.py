@@ -60,4 +60,3 @@ class CatCreate(CreateView):
     # fields = '__all__' 
     #or a list
     fields = ['name', 'breed', 'description', 'age']
-    success_url='/cats/'
